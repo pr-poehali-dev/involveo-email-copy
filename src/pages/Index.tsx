@@ -41,13 +41,6 @@ const Index = () => {
             </div>
             <span className="text-xl font-bold text-foreground">Involveo</span>
           </div>
-          <Button 
-            size="lg" 
-            className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold shadow-lg hover:shadow-xl transition-all"
-            onClick={() => window.open('https://involveo.ru', '_blank')}
-          >
-            Перейти на основной сайт
-          </Button>
         </div>
       </header>
 
@@ -74,23 +67,26 @@ const Index = () => {
               и приоритизировать их в бэклоге.
             </p>
 
-            <div className="mt-8 rounded-2xl overflow-hidden shadow-2xl border border-border/50">
-              <img 
-                src="https://cdn.poehali.dev/projects/95b26132-8d1f-4076-994e-846c919d430e/files/b245bcf3-db29-4787-a16a-db350f97cb6f.jpg" 
-                alt="Involveo интерфейс" 
-                className="w-full h-auto"
-              />
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+            <div className="pt-6">
               <Button 
                 size="lg" 
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all hover:scale-105"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-12 py-6 shadow-xl hover:shadow-2xl transition-all hover:scale-105"
                 onClick={() => window.open('https://involveo.ru', '_blank')}
               >
                 <Icon name="ExternalLink" size={20} className="mr-2" />
                 Перейти на основной сайт
               </Button>
+            </div>
+
+            <div className="mt-12 rounded-2xl overflow-hidden shadow-2xl border border-border/50">
+              <img 
+                src="https://cdn.poehali.dev/projects/95b26132-8d1f-4076-994e-846c919d430e/files/06fd3982-8324-47a4-a0fa-3b3e7fc15818.jpg" 
+                alt="Процесс работы с идеями" 
+                className="w-full h-auto"
+              />
+            </div>
+
+            <div className="flex justify-center pt-4">
               <Button 
                 size="lg" 
                 variant="outline"
